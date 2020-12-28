@@ -3,7 +3,7 @@
 - structure 
     ```
     |- programs
-        |- *.tm                 // description files
+        |- *.txt                // description files
     |- turing-project
         |- main.cpp             // main entry
         |- TuringMachine.cpp    // definition of TM class
@@ -22,12 +22,12 @@
     ```
     like:
     ```
-    $ ./turing -v case1.tm aabaabb
+    $ ./turing -v case1.txt aabaabb
     ```
 
 ## Arguments
 - ```-v/--verbose```:
-    
+  
     Whether to show step ID and debug detail.
 
 - ```-h/--help```:
@@ -38,7 +38,7 @@
 
     The relative path of TM description file.
 
-    **e.g.** for file ```./programs/case.tm```, ```<tm>:=case.tm```
+    **e.g.** for file ```./programs/case.txt```, ```<tm>:=case.txt```
 
 - ```<input>```:
 
